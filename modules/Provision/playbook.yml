@@ -1,0 +1,21 @@
+---
+- hosts: all
+  gather_facts: False
+  tasks:
+    - name: Test if ansible is ready on host
+      ping:
+
+    - name: Installs nginx web server
+      apt: pkg=nginx state=installed update_cache=true
+      become: true
+      notify:
+        - start nginx
+
+    - name: Upload default index.html for host
+      copy: src=index.html dest=/var/www/html/ mode=0644
+      become: true
+
+  handlers:
+    - name: start nginx
+      service: name=nginx state=started
+      become: true
