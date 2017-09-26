@@ -2,7 +2,7 @@ variable "region" {
     default = "us-east-2"
 }
 
-variable "privateKey" {
+variable "privateKeyPath" {
     default = "/Users/Agnes/Projects/Playground/aws_example"
 }
 
@@ -45,14 +45,14 @@ resource "aws_security_group" "example_allow_ssh" {
 
 resource "aws_instance" "example_instance" {
     ami = "ami-dbbd9dbe"
-    instance_type = "t2.large"
+    instance_type = "t2.medium"
     vpc_security_group_ids = ["${aws_security_group.example_allow_ssh.id}"]
     count = 1
 
     key_name = "aws_example"
     connection {
         user = "ubuntu"
-        private_key = "${file("${var.privateKey}")}"
+        private_key = "${file("${var.privateKeyPath}")}"
     }
 
     provisioner "remote-exec" {
@@ -63,6 +63,6 @@ resource "aws_instance" "example_instance" {
     }
 
     provisioner "local-exec" {
-        command = "ANSIBLE_HOST_KEY_CHECKING=False ansible-playbook -i ../Provision/ec2.py -u ubuntu --private-key ${var.privateKey} ../Provision/playbook.yml"
+        command = "ANSIBLE_HOST_KEY_CHECKING=False ansible-playbook -i ../Provision/ec2.py -u ubuntu --private-key ${var.privateKeyPath} ../Provision/playbook.yml"
     }
 }
