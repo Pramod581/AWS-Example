@@ -4,9 +4,6 @@ This repository is an introductory example to Infrastructure as Code (IAC) with 
 
 The example is the provisioning of an EC2 instance, hosting a simple html through an nginx.
 
-## Coming up soon: AWS Cloud Day Solingen
-An introductory presentation including this demo will be held at the [AWS Cloud Day in Solingen](https://www.eventbrite.de/e/aws-cloud-day-solingen-registrierung-35532089436) on October 27th 2017.
-
 ## Prerequisites
 
 ### AWS Setup
