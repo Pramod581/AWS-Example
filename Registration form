@@ -1,0 +1,15 @@
+# Registration Form Deployment
+# In this project, I have hosted a dynamic website, which adapt content based on user interaction and data, can be deployed on AWS using combination of services to ensure scalability, security and fault tolerance.A common approach involves using a multi-tier architecture with EC2 instances for the application layer.
+
+# Project Objectives
+# Configure dynamic website hosting on Amazon S3 include achieving scalability, cost-effectiveness, high availabilty, and robust security.
+
+# Prerequisites
+
+# An AWS account,IAM User/Role,CLI,VPC and EC2 instance.
+
+# Step1: Logging into the Amazon Web Services Console.
+# Step2: Enter into the EC2 and then ![image](https://github.com/user-attachments/assets/db45ee9d-8f6d-4bd8-900d-0cde4c7e9d7f) click on Launch instances.
+# Step3: Name the instance , select the OS image as Amazon Linux, Select instance type, Create a key pair, Create a security group and click on launch instance.
+# Step4: 
+
