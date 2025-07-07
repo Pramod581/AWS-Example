@@ -1,14 +1,16 @@
- This project automates the creation and management of Amazon S3 buckets for secure, scalable, and durable object storage using AWS services.
-Static Website Hosting on Amazon S3.
-📌 Project Overview
-Host static content (e.g., a portfolio, documentation, or product landing page) on S3 by:
+# This project automates the creation and management of Amazon S3 buckets for secure, scalable, and durable object storage using AWS services.
+# Static Website Hosting on Amazon S3.
+# 📌 Project Overview
+## Host static content (e.g., a portfolio, documentation, or product landing page) on S3 by:
 Creating an S3 bucket
 Enabling static website hosting
 Uploading files
 Making it publicly accessible
-🧱 Prerequisites
-AWS account
-AWS CLI installed and configured
+# 🧱 Prerequisites
+## AWS account
+## AWS CLI installed and configured
 Static files (e.g., index.html, style.css, script.js)
-1. Create an S3 Bucket
+# 1. Create an S3 Bucket
+## Bucket name must match your domain name for custom domains (e.g., www.example.com), or be globally unique for generic hosting.
+## 
 
