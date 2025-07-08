@@ -12,5 +12,5 @@ Making it publicly accessible
 Static files (e.g., index.html, style.css, script.js)
 # 1. Create an S3 Bucket
 ## Bucket name must match your domain name for custom domains (e.g., www.example.com), or be globally unique for generic hosting.
-## 
+
 
