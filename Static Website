@@ -1,0 +1,6 @@
+# Hosting a Static Website on AWS Using EC2
+# Description
+## Cloud computing has revolutionized the way we host and manage websites. In this guide, we’ll walk you through the process of hosting a static website on Amazon Web Services (AWS) using an EC2 instance. By following these steps, you’ll gain insights into setting up the necessary infrastructure and deploying your static content seamlessly.
+# Step 1: Choose Your Region
+## Log in to the AWS Management Console and select the region that aligns with your preferences. In our example, we’ll be utilizing the us-east-1 (N. California) region for this project.
+# 
