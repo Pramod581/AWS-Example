@@ -1,0 +1,28 @@
+# Amazon Route-53
+## AWS Route 53 is a cloud-based Domain Name System (DNS) web service.It's a highly available and scalable service that translates domain names (like www.example.com) into the IP addresses of your resources (like web servers) so browsers can locate and connect to your website. Essentially, it acts as the phone book for the internet, connecting user requests to your website
+## https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fcloud-computing%2Fintroduction-to-amazon-route53%2F&psig=AOvVaw1Mdu1oMeXogDwJWR0tPlba&ust=1752483897626000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJj3je29uY4DFQAAAAAdAAAAABAE
+## https://www.google.com/url?sa=i&url=https%3A%2F%2Fcodingpackets.com%2Fblog%2Fcloud-notes-aws-route-53&psig=AOvVaw11od9ipxjj1c3IfHQg3K74&ust=1752484070585000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNDroYa-uY4DFQAAAAAdAAAAABAL
+# Buy/Register a Domain (if not already)
+# Lanuch an ec2 instance
+# Create a Hosted Zone
+## https://res.cloudinary.com/dtjjgiitl/image/upload/q_auto:good,f_auto,fl_progressive/v1752398297/hjbdnoyvcj2du1zokua9.jpg
+## https://res.cloudinary.com/dtjjgiitl/image/upload/q_auto:good,f_auto,fl_progressive/v1752398618/tcaxf56ugltkflhwiosb.jpg
+## https://res.cloudinary.com/dtjjgiitl/image/upload/q_auto:good,f_auto,fl_progressive/v1752398748/nsi5i9ottefaini0axpd.jpg
+# Click “Create record”
+## https://res.cloudinary.com/dtjjgiitl/image/upload/q_auto:good,f_auto,fl_progressive/v1752398854/glv3yd3kx5fdmi0tzyo4.jpg
+# Type: A – IPv4 address
+# Select Alias: Yes
+# Click Create records
+## https://res.cloudinary.com/dtjjgiitl/image/upload/q_auto:good,f_auto,fl_progressive/v1752399280/zubs4ahweawjqpqlxl55.jpg
+# Go to the Domain name seller (Hostinger)
+# Click on Home and click on manage infront of your Domain name
+## https://res.cloudinary.com/dtjjgiitl/image/upload/q_auto:good,f_auto,fl_progressive/v1752400156/jdue1enr3vih4uiwn5uz.jpg
+## https://res.cloudinary.com/dtjjgiitl/image/upload/q_auto:good,f_auto,fl_progressive/v1752400372/bpccte4ty8skcnb8vfcx.jpg
+## https://res.cloudinary.com/dtjjgiitl/image/upload/q_auto:good,f_auto,fl_progressive/v1752400520/lfe9ivbvazvsib8i4tih.jpg
+# Add DNS in hostinger domains from NS 
+# Click on save to save those entries
+## https://res.cloudinary.com/dtjjgiitl/image/upload/q_auto:good,f_auto,fl_progressive/v1752400683/nczlgkexh9zobizmqyii.jpg
+## https://res.cloudinary.com/dtjjgiitl/image/upload/q_auto:good,f_auto,fl_progressive/v1752400825/pekcol1poxosvfkaz9nx.jpg
+# Hit your Domain name on browser
+## https://res.cloudinary.com/dtjjgiitl/image/upload/q_auto:good,f_auto,fl_progressive/v1752403143/qynvltlcppgw1gb4oij6.jpg
+
